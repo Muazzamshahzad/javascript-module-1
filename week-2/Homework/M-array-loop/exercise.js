@@ -13,3 +13,4 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+console.log(daysOfWeek.[0]); 
