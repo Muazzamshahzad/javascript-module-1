@@ -7,13 +7,13 @@
 */
 
 let n = 10;
-let sum = 0
+let sum = 0;
+let i = 1;
 
 function sumTillNum(num){
-	while (n > 0){
-		sum = sum + n
-		n--
-	
+	while (i<= num){
+		sum += i
+		i++
 	}
 	return sum
 	//your code here

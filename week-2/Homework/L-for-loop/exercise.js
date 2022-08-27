@@ -7,12 +7,11 @@
 */
 
 let n = 10;
-
+let sum = 0;
 function sumTillNum(num){
 	//your code here
-	let sum = 0;
-	for(let n = 10; n > 0; n--){
-	sum = sum + n;
+	for(let i = 1; i <= num; i++){
+	sum = sum + i;
 	}
 return sum
 }
